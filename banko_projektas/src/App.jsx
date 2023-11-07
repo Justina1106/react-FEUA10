@@ -13,7 +13,7 @@ const ATM = () => {
 
   const handleWithdrawAll = () => {
     setBalance(0);
-  };  
+  };
 
   return (
     <div>
