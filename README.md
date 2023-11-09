@@ -19,3 +19,16 @@ css reset https://www.joshwcomeau.com/css/custom-css-reset/#our-finished-product
 Beautiful CSS box-shadow examples https://getcssscan.com/css-box-shadow-examples
 Ternary operators: ? : if else; && if
 JSX nepriima if else operatorių, todėl turime naudoti ternary operatorius
+"children" prop - parametras paduodas į komponento vidų children
+"npm install prop-types" įrašo proptypes biblioteką.
+import PropTypes from "prop-types"; importuoja proptypes biblioteką
+Button.propTypes = { onClick: PropTypes.func.isRequired, color: PropTypes.strings } panaudoja proptypes
+proptypes: number (skaičius), string (tekstas), func (funkcija), node (bet koks elementas), shape (objektas)
+elementai turi savo onClick handlerį - funkcija kuri bus iškviesta kai bus nuspaustas elementas <button onClick={() => setValue("labas")}> Say hello
+useState hooksas - React aplinkoje naudajamas funkcionalumas duomenims manipuliuoti pvz. const [state, setState] = useState(0);
+state yra reikšmė, setState yra update funkcija. Panaudojimas setState("nauja reikšmė")
+.map() - iteruoja per elementus ir grąžina naują masyvą. const users = ["Tomas", "Rokas"]; users.map(user =>
+{user}
+)
+useEffect - tuščias dependency masyvas reiškia, kad hooksas suveiks tik vieną kartą pvz. useEffect(() => {}, []);
+.map() būtinas key parametras - kiekvienas iteruojamas itemas turi turėti unikalų raktą, kad nustatyti, kurie sąrašo elementai yra pakeisti, atnaujinti ar ištrinti. kokį raktą naudojate (dažniausiai unikalų itemo id)? ar galime naudoti index kaip raktą (nepatartina, nes gali susimaišyti raktai darant edit arba delete)? jeigu neturime id ir negalime naudoti index, tai kokį raktą naudoti?
