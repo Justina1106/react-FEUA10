@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const registration = () => {
+const Registration = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [favourite, setFavourite] = useState("");
@@ -48,7 +48,7 @@ const registration = () => {
         type="password"
         value={password}
         onChange={(event) => setPassword(event.target.value)}
-        placeholder="Min 6 characyers..."
+        placeholder="Password Min 6 characters..."
         style={{ marginBottom: 16 }}
       />
     </div>
@@ -56,4 +56,4 @@ const registration = () => {
   );
 };
 
-export default registration;
+export default Registration;

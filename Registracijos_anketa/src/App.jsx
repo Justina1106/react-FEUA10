@@ -1,13 +1,13 @@
-import registration from "./components/registration";
-import newAccount from "./components/newAccount";
+import NewAccount from "./components/NewAccount";
+import Registration from "./components/Registration";
 
 const App = () => {
   return (
     <div className="App">
       
     <div style={{ padding: 20 }}>
-      <registration />
-      <newAccount />
+      <NewAccount />
+      <Registration />
     </div>
     </div>
   );
