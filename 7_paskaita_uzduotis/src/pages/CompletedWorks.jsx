@@ -1,7 +1,8 @@
 const CompletedWorks = () => {
     return (
       <main>
-        <h1>My Completed works page</h1>
+        <h1>Prekybos atstovai</h1>
+        
       </main>
     );
   };

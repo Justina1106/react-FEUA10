@@ -15,13 +15,12 @@ const Header = () => {
         }}
       >
         <img src="https://www.farmandfleet.com/uploads/brand-pages/105/mainhead-20190417090738@2x.jpg" width={150} alt="Stihl Logo"/>
-        <Link to="/main">Main</Link>
-        <Link to="/aboutUs">About Us</Link>
-        <Link to="/completedWorks">Completed Works</Link>
-        <Link to="/imagine">Imagine</Link>
-        <Link to="/news">News</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/contacts">Contacts</Link>
+        <Link to="/main">Pagrindinis</Link>
+        <Link to="/aboutUs">Apie mus</Link>
+        <Link to="/news">Naujienos</Link>
+        <Link to="/services">Paslaugos</Link>
+        <Link to="/completedWorks">Darbai</Link>
+        <Link to="/contacts">Kontaktai</Link>
       </nav>
     </header>
   );

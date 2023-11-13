@@ -1,3 +1,4 @@
+
 const News = () => {
     return (
       <main>
@@ -5,5 +6,6 @@ const News = () => {
       </main>
     );
   };
-  
+
+ 
   export default News;
