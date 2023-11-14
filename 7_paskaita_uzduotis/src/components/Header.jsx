@@ -19,7 +19,7 @@ const Header = () => {
         <Link to="/aboutUs">Apie mus</Link>
         <Link to="/news">Naujienos</Link>
         <Link to="/services">Paslaugos</Link>
-        <Link to="/completedWorks">Darbai</Link>
+        <Link to="/completedWorks">Produkcija</Link>
         <Link to="/contacts">Kontaktai</Link>
       </nav>
     </header>

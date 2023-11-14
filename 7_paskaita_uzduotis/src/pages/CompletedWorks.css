@@ -1,0 +1,19 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    align-items: center;
+    margin: 10px 10px 5px 5px;
+}
+
+.album {
+  
+    height: 500px;
+    width: 300px;
+    outline: 2px solid #cecece;
+    border-radius: 1rem;
+    margin: 10px 10px 5px 5px;
+}
+.title {
+    text-align: center;
+}
