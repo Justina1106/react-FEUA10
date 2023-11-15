@@ -1,5 +1,5 @@
 const Footer = () => {
-    return <footer>Footer</footer>;
+    return <footer>Visos teisės saugomos © 2023</footer>;
   };
   
   export default Footer;

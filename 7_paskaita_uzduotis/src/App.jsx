@@ -8,6 +8,7 @@ import News from "./pages/News";
 import Services from "./pages/Services";
 import Main from "./pages/Main";
 
+
 const App = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/completedWorks" element={<CompletedWorks />} />
         <Route path="/contacts" element={<Contacts />} />
-        
+       
       </Routes>
       <Footer />
     </>
