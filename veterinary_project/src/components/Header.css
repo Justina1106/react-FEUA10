@@ -1,0 +1,19 @@
+.container-pet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 50px;
+    
+}
+.logo {
+    color: orange;
+    
+}
+.header-links {
+    gap: 50;
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    padding: 32;
+    font-size: 20;
+}
