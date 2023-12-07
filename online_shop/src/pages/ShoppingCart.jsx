@@ -1,4 +1,3 @@
-// src/pages/ShoppingCart.js
 import React from 'react';
 
 const ShoppingCart = ({ cart, removeFromCart }) => {

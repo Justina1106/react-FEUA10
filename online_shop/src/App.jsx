@@ -1,7 +1,5 @@
-
-// src/App.js
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Routes, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -23,7 +21,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Routes>
       <div className="App">
         <Header />
         <div className="shopping-cart">
@@ -45,7 +43,7 @@ const App = () => {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </Routes>
   );
 };
 
