@@ -8,7 +8,7 @@ const Shop = () => {
         <div className="shop">
            
            <div className="shopTitle">
-            <h1> ILunch restoranas</h1>
+            <h1> Dienos meniu</h1>
             </div>  
             <div className="products"> {PRODUCTS.map((product) => (
                 <Product data={product} />

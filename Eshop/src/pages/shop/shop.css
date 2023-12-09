@@ -1,6 +1,6 @@
 .addToCartBttn {
     background-color: transparent;
-    border: 2px solid rgb(19, 19, 19);
+    border: 2px solid rgb(58, 135, 58);
     min-width: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -9,7 +9,7 @@
     border-radius: 15px;
 }
 .addToCartBttn:hover {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(58, 135, 58);
     color: white;
     cursor: pointer;
 }
