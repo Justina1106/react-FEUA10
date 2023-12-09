@@ -1,5 +1,5 @@
 {
-  "name": "my_online_shop",
+  "name": "eshop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
+    "phosphor-react": "^1.4.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
