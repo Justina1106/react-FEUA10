@@ -31,11 +31,11 @@ const StyledButton = styled.button`
   border: none;
   border-radius: 5px;
   color: white;
-  background-color: #261ff2;
+  background-color: rgb(58, 135, 58);
   cursor: pointer;
 
   &:hover {
-    background-color: #1e18c1;
+    background-color: rgb(109, 232, 109);
   }
 `;
 
