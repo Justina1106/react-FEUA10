@@ -1,0 +1,111 @@
+.auth-form-container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #F2877D;
+    border-top-right-radius:  5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .header1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .sign-up-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    row-gap: 10px;
+  }
+  
+  .google {
+    display: flex;
+    align-items: center;
+    background-color: white; 
+    color: #000;
+    border: 2px solid rgb(40, 40, 127);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+    height: 40px;
+  }
+  
+  .fb {
+    background-color: #1877f2; 
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+    height: 40px;
+  }
+  
+  .google img, .fb img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: white;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #888888 ;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  input:hover {
+    border: 2px solid #F2877D;
+  }
+  
+  button {
+   
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit {
+    background-color: #F2877D; 
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .link-btn {
+    background-color: #888888;
+    background: none;
+    border: none;
+    color: #F2877D;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+  }
+  

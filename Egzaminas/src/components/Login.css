@@ -1,0 +1,99 @@
+.auth-form-container {
+    width: 3000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #F2877D;
+    border-top-right-radius:  5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50vh;
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .header1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .sign-up-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    row-gap: 10px;
+  }
+  
+  .google {
+    display: flex;
+    align-items: center;
+    background-color: white; 
+    color: #000;
+    border: 2px solid rgb(40, 40, 127);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+  }
+  
+  .fb {
+    background-color: #1877f2; 
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+    height: 40px;
+  }
+  
+  .google img, .fb img {
+    margin-right: 10px;
+    width: 45%;
+    height: 30px;
+  }
+
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4285f4; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .link-btn {
+    background-color: #888888;
+    background: none;
+    border: none;
+    color: #F2877D;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+  }
+  
