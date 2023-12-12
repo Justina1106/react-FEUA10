@@ -3,9 +3,9 @@ import "./register.css";
 
 
 const Register = (props) => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -28,9 +28,9 @@ const Register = (props) => {
         <label htmlFor="name">Name</label>
         <input value={name} onChange={(e) => setName(e.target.value)} type="name" placeholder="yourname" id="name" name="name" />
         <label htmlFor="email">Email</label>
-        <input type="email" placeholder="youremail@gmail.com" id="email" name="email" />
+        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="youremail@gmail.com" id="email" name="email" />
         <label htmlFor="password">Password</label>
-        <input type="Password" placeholder="*******" id="Password" name="Password" />
+        <input value={password} onChange={(e) => setPassword(e.target.value)} type="Password" placeholder="*******" id="Password" name="Password" />
         <button className="submit" type="submit">Submit</button>
     </form>
       

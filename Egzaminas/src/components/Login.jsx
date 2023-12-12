@@ -2,7 +2,7 @@ import React, { useState} from "react";
 import "./login.css";
 
 const Login = (props) => {
-    const [name, setName] = useState("");
+    
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -24,10 +24,10 @@ const Login = (props) => {
        </div>
        <h2>Or</h2>
     <form className="login-form" onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
-        <input type="email" placeholder="youremail@gmail.com" id="email" name="email" />
+    <label htmlFor="email">Email</label>
+        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="youremail@gmail.com" id="email" name="email" />
         <label htmlFor="password">Password</label>
-        <input type="password" placeholder="*******" id="password" name="password" />
+        <input value={password} onChange={(e) => setPassword(e.target.value)} type="Password" placeholder="*******" id="Password" name="Password" />
         <button className="" type="submit">Submit</button>
     </form>
        
@@ -35,3 +35,4 @@ const Login = (props) => {
     );
 };
 export default Login;
+
